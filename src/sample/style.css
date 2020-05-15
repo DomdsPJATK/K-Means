@@ -1,0 +1,25 @@
+#btnAcction {
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+    -fx-border-style: none;
+    -fx-background-insets: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+
+#inputText {
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+    -fx-border-radius: 0;
+    -fx-border-color: #afb1b3;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-prompt-text-fill: #aeaeae;
+    -fx-background-color: #232323;
+    -fx-text-fill: #afb1b3;
+}
+
+#listView {
+    -fx-pref-width: 400;
+    -fx-background-color: #232323;
+}
