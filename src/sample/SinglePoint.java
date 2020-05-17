@@ -27,4 +27,17 @@ public class SinglePoint {
         return point;
     }
 
+    public List<Double> getCoords() {
+        return coords;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
 }

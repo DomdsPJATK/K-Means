@@ -11,7 +11,7 @@
       xmlns:fx="http://javafx.com/fxml" alignment="center" stylesheets="@style.css" spacing="10">
     <FlowPane alignment="CENTER">
         <TextField fx:id="inputText" promptText="Podaj k"/>
-        <Button fx:id="btnAcction" onAction="#acctionOnClick">Start</Button>
+        <Button fx:id="btnAcction" onAction="#actionsOnClick">Start</Button>
     </FlowPane>
     <FlowPane alignment="CENTER">
         <ListView fx:id="listView"/>

@@ -20,6 +20,19 @@
 }
 
 #listView {
-    -fx-pref-width: 400;
+    -fx-pref-width: 700;
+    -fx-pref-height: 700;
     -fx-background-color: #232323;
+}
+
+.list-view .list-cell {
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #232323;
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #313131;
 }
